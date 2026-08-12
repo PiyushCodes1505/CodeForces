@@ -18,7 +18,7 @@ using namespace std;
 void solve(int n,vector<int>a){
     int k=abs(a[0]-1);
     for(int i=1;i<n;i++){
-        k=gcd(k,abs(a[i]-(i+1)));
+        k=std::gcd(k,abs(a[i]-(i+1)));
     }
     cout<<k<<endl;
 }
