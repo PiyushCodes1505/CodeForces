@@ -6,10 +6,10 @@
                 "${workspaceFolder}/**"
             ],
             "defines": [],
-            "compilerPath": "/usr/bin/clang",
+            "compilerPath": "/opt/homebrew/bin/g++-16",
             "cStandard": "c23",
             "cppStandard": "c++26",
-            "intelliSenseMode": "macos-clang-arm64"
+            "intelliSenseMode": "macos-gcc-arm64"
         }
     ],
     "version": 4
